@@ -9,6 +9,7 @@ downloadBtn = document.querySelector(".download-btn");
 
 let ogImageRatio;
 
+
 const loadFile = (e) => {
     const file = e.target.files[0]; // getting first user selected file
     if(!file) return; // return if user hasn't selected any file
